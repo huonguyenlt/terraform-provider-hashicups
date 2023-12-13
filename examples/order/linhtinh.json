@@ -1,0 +1,23 @@
+coffee" : {
+        "description" : ""
+        "id" : 3
+        "image" : "/vault.png"
+        "name" : "Vaulatte"
+        "price" : 200
+        "teaser" : "Nothing gives you a safe and secure feeling like a Vaulatte"
+      },
+"quantity" : 2{
+  "coffee": {
+    "description": "",
+    "id": 3,
+    "image": "/vault.png",
+    "name": "Vaulatte",
+    "price": 200,
+    "teaser": "Nothing gives you a safe and secure feeling like a Vaulatte"
+  },
+  "quantity": 2
+}
+{"coffee":{"id":3,"image":"/vault.png","name":"Vaulatte","price":200,"teaser":"Nothing gives you a safe and secure feeling like a Vaulatte"},"quantity":25}
+{"coffee":{"id":3,"name":"Vaulatte","teaser":"Nothing gives you a safe and secure feeling like a Vaulatte","collection":"Foundations","origin":"Spring 2015","color":"#FFD814","description":"","price":200,"image":"/vault.png","ingredients":[{"ingredient_id":1},{"ingredient_id":2}]},"quantity":2},
+curl -X PUT -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDE4MDM5MDksInRva2VuX2lkIjoxLCJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImVkdWNhdGlvbiJ9.D9loTNmhWyydgLvn7zMJoxdcNurSXBCxH9SoUdPIQDs" localhost:19090/o
+rders/1 -d '[{"coffee":{"id":3,"image":"/vault.png","name":"Vaulatte","price":200,"teaser":"Nothing gives you a safe and secure feeling like a Vaulatte"},"quantity":25}]'
